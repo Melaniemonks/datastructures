@@ -160,4 +160,4 @@ print(union(set1, set2))
 # EXCERCISE
 * Create a an intersection function that can take two sets and create a new set using the similar values.
 
-*Notes: After attempting the following for 30mins and you are unable to find a solution, refer to the the following link for guidiance: [Solution]www.jlnkl/jiji*
+*Notes: After attempting the following for 30mins and you are unable to find a solution, refer to the the following link for guidiance: [Solution]test.py*

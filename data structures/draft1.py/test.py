@@ -1,5 +1,5 @@
 
-#we will be creating a function for union
+#we will be creating a function for intersection
 
 def intersection(set1, set2):#From the reading, union requires 2 values
 

@@ -13,6 +13,8 @@ print (names)
 
 *Items in a set are written inbetween two curly brackets*
 
+![sets](sets.jpg)
+
 Unlike other data types, sets are non-modular. This means that they can contain tuples, bolean, int, floats etc
 
 `Example: set = {'Melanie', 12, (1,2,3), True}
@@ -116,12 +118,12 @@ print(set3)
 
 # OTHER SETS METHODS
 
-Methods              | Description               | Performance
--------------------  | ------------------------- | 
-clear()              | Removes all the elements from the set |
-copy()               | Returns a copy of the set                                    |
-difference()         | Returns a set containing the difference between two or more  sets|
-intersection_update()|  Removes the items in this set that are not present in other, specified set(s)|
+Methods              | Description| Performance|
+-------------------  | ------------|------------- | 
+clear()              | Removes all the elements from the set |O(n)|
+copy()               | Returns a copy of the set| O(n)|
+difference()         | Returns a set containing the difference between two or more sets|O(n)|
+intersection_update()|  Removes the items in this set that are not present in other, specified set(s)|O(n)|
 
 Not to Overwhelm you but these are some common methods that can be used. However there's more but these can just easily be found online depending on how you are wanting to manipulate the information.
 

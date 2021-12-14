@@ -124,10 +124,10 @@ print(set3)
 
 Methods              | Description| Performance|
 -------------------  | ------------|------------- | 
-clear()              | Removes all the elements from the set |O(n)|
-copy()               | Returns a copy of the set| O(n)|
-difference()         | Returns a set containing the difference between two or more sets|O(n)|
-intersection_update()|  Removes the items in this set that are not present in other, specified set(s)|O(n)|
+clear()              | Removes all the elements from the set |O(1)|
+copy()               | Returns a copy of the set| O(1)|
+difference()         | Returns a set containing the difference between two or more sets|O(1)|
+intersection_update()|  Removes the items in this set that are not present in other, specified set(s)|O(1)|
 
 Not to Overwhelm you but these are some common methods that can be used. However there's more but these can just easily be found online depending on how you are wanting to manipulate the information.
 

@@ -1,7 +1,7 @@
-# Queues
+# Trees
 Whenever you hear queue think of a line like the name implies. With Queues the order in which the operation is performed is followed. This order that is being followed states that the first in is the first out (FIFO). So lets say there is a line at your favorite resturant of 6 people and you are number seven. The first 6 people will get attended to first based on their position before you. First come first serve.
 
-![Trees](trees.png)
+![queue](queue.png)
 
 
 ## Enqueue

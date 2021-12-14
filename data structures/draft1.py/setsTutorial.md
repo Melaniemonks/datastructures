@@ -15,7 +15,6 @@ print (names)
 
 ![sets](sets.jpg)
 
-Unlike other data types, sets are non-modular. This means that they can contain tuples, bolean, int, floats etc
 
 `Example: set = {'Melanie', 12, (1,2,3), True}
 
@@ -70,6 +69,8 @@ Lets take it one step at a time.
 `UNION`:
 Don't think too far! Union means to unite two sets. At least that how I think about it. It take the values in Set1 and the in Set2 and bring them together to form one set.
 
+![Union](union.jpg)
+
 Let look at an example
 ```python
 set1 = {'Water', 'Melon', 'Sugar', 'High'}
@@ -99,6 +100,9 @@ print (set1)
 `INTERSECTION`:
 This is different that the previous two we spoke about earlier. With interection, we are looking for only similar values present between the two sets
 
+![intersection](intersection.png)
+
+
 Examples:
 ```python
 set1 = {'Water', 'Melon',3,'Sugar', 1,'High'}
@@ -111,12 +115,12 @@ print(set3)
 {1, 3, 'Sugar', 'High'}
 ```
 
-# Characteristics of a Set
+## Characteristics of a Set
 * No duplicate values 
 * Makes it faster to add, remove, and adding 
 * There is no specific order to which values are being added. This is due to the hashing function
 
-# OTHER SETS METHODS
+## OTHER SETS METHODS
 
 Methods              | Description| Performance|
 -------------------  | ------------|------------- | 
@@ -129,7 +133,7 @@ Not to Overwhelm you but these are some common methods that can be used. However
 
 Alright! Now that you are a professional at working with sets, lets work on a more hands on example and test your understanding so far.
 
-# Example
+## Example
 ```python
 
 #Lets Create a function for union
@@ -159,7 +163,7 @@ print(union(set1, set2))
 #RESULTS
 #{'f', 3, 4, 5, 6, 78, 'r'}
 ```
-# EXCERCISE
+## EXCERCISE
 * Create a an intersection function that can take two sets and create a new set using the similar values.
 
 *Notes: After attempting the following for 30mins and you are unable to find a solution, refer to the the following link for guidiance: [Solution]test.py*
